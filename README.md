@@ -15,7 +15,7 @@ public:
     }
 
     // Initialize the weights and biases for the hidden layer
-    for (int i = 0; i < num_hidden; i++) {
+    for (int i = 0; i < num_hidden; i++) {jb
       for (int j = 0; j < num_outputs; j++) {
         weights_ho[i][j] = random_weight();
       }
